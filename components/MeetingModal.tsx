@@ -34,7 +34,6 @@ const MeetingModal = ({
 }: MeetingModalProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogTrigger>Open</DialogTrigger>
       <DialogContent
         className={cn(
           "flex items-center justify-center w-full max-w-lg mx-auto my-8 border-4 border-gradient-to-r from-red-500 via-yellow-500 to-black-500 bg-gray-900 bg-opacity-100 backdrop-blur-md px-8 py-10 text-white rounded-lg shadow-xl",
